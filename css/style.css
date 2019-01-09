@@ -323,15 +323,9 @@ footer a {
   margin: 0 0 2% 2%;
 }
 
-#shoeArchive h2{
-  font-size: 200%;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: rgba(0,0,0,0)
 }
-/*
-#shoeArchive h3{
-
-}
-
-#shoeArchive li{
-
-}
-*/
