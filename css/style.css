@@ -302,4 +302,45 @@ footer a {
   text-decoration: underline;
 }
 
+/* Columns */
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #ccc;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #ccc;
+}
+
+.col-3 {
+  float: left;
+  background: #ccc
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.adj_height {
+  height: 550px;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+.down {
+  margin-top: 10px;
+}
 /* code examples copyright Jonathan Grover 2012 */
